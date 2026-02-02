@@ -23,7 +23,12 @@
     You can Google it, ask a friend, copy from last year's work, whatever works for you.<br>
     By the end of the spell you should have some JavaScript going.</p>
 
-    <button onclick='runScript()' value="submit">Button Name</button>
+    <form id="textInput" onsubmit="return false;">
+        <label for="uName">Put Text Here:</label><br>
+        <input type="text" id="text" name="text" size="50" autocomplete="off" required><br><br>
+        <button onclick='runScript()' value="submit">Button Name</button>
+    </form>
+
     <script src="script.js"></script>
 
 </body>

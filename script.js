@@ -1,3 +1,6 @@
+var textInput
+
 function runScript() {
-    alert("Congratulations!\nYou got the script running.")
+    textInput = document.forms["textInput"]["text"].value;
+    alert("Congratulations!\nYou got the script running. \n Here's Your text: " + textInput)
 }
